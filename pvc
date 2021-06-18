@@ -1,0 +1,17 @@
+Name:          prometheus
+Namespace:     kube-ops
+StorageClass:  csi-disk
+Status:        Bound
+Volume:        pvc-f2d
+Labels:        failure-domain.beta.kubernetes.io/region=
+               failure-domain.beta.kubernetes.io/zone=
+Annotations:   everest.io/disk-volume-type: SAS
+               pv.kubernetes.io/bind-completed: yes
+               pv.kubernetes.io/bound-by-controller: yes
+               volume.beta.kubernetes.io/storage-provisioner: everest-csi-provisioner
+Finalizers:    [kubernetes.io/pvc-protection]
+Capacity:      
+Access Modes:  RWO
+VolumeMode:    Filesystem
+Mounted By:    prometheus-8
+Events:        <none>
