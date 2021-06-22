@@ -7,6 +7,7 @@ notes:
 the prometheus version is: prometheus-2.26.1.linux-amd64
 
 create configmap from dir prometheus-config  use command:
+
 kubectl --kubeconfig=kube/config   create configmap pro-config --from-file=proconfig/ -n namespace
 
 so,you can use the configmap name pro-config in prometheus-pod.yaml
