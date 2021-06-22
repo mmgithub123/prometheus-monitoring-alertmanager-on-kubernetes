@@ -1,3 +1,7 @@
+notes:
+
+the prometheus version is: prometheus-2.26.1.linux-amd64
+
 # prometheus-monitoring-alertmanager-on-kubernetes
 all yaml to do monitor k8s(kubernetes) use prometheus and send alert  use alertmanager
 
