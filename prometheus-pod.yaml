@@ -22,7 +22,7 @@ spec:
         args:
         - "--config.file=/etc/prometheus/prometheus.yml"
         - "--storage.tsdb.path=/prometheus"
-        - "--storage.tsdb.retention=7d"
+        - "--storage.tsdb.retention=1d"
         - "--web.enable-admin-api"
         - "--web.enable-lifecycle"
         ports:
@@ -46,7 +46,7 @@ spec:
       volumes:
       - name: config
         configMap:
-          name: prometheus-config
+          name: pro-config
       - name: data
         persistentVolumeClaim:
           claimName: cce-evs-prometheus
