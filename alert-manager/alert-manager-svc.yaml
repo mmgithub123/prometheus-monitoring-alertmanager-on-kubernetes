@@ -14,4 +14,4 @@ spec:
   type: NodePort  
   ports:
     - port: 9093
-      targetPort: http
+      targetPort: 9093
