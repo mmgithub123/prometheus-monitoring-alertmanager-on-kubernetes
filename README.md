@@ -24,7 +24,8 @@ so,you can use theconfigmap name pro-config in prometheus-pod.yaml
 2,you must know the k8s rbac
 
 3,you must have pvc and pv。and the pvc name is：cce-evs-prometheus
-  this used in prometheus-pod.yaml
+  this used in prometheus-pod.yaml.and notes you pvc must in the same availability zone (az) in the cloud environment。
+  see the topic in https://stackoverflow.com/  ，https://stackoverflow.com/questions/51946393/kubernetes-pod-warning-1-nodes-had-volume-node-affinity-conflict
 
 
 ------------------------------------------------------------
