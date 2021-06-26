@@ -11,7 +11,11 @@ the prometheus version is: prometheus-2.26.1.linux-amd64
 
 you have additional to do:
 
-1, create configmap from dir prometheus-config  use command:
+0，create namespace kube-ops，all resource in this namespace，use command：
+
+kubectl create ns kube-ops
+
+1, create configmap from dir prometheus-config ， use command:
 
 kubectl --kubeconfig=kube/config   create configmap pro-config --from-file=proconfig/ -n namespace
 
