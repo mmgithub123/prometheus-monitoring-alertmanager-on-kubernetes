@@ -23,7 +23,8 @@ so,you can use theconfigmap name pro-config in prometheus-pod.yaml
 
 2,you must know the k8s rbac
 
-3,you must have pvc and pv
+3,you must have pvc and pv。and the pvc name is：cce-evs-prometheus
+  this used in prometheus-pod.yaml
 
 
 ------------------------------------------------------------
